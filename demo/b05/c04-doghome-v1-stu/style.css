@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    border: solid 2px blue;
+}
+body {
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 1.5;
+}
+#welcome {
+    border: solid 2px orange;
+    padding: 70px 100px;
+}
+#welcome {
+
+}
+#welcome img {
+    width: 100%;
+}
