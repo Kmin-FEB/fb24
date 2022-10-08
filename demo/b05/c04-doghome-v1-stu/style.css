@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    border: solid 2px blue;
+    border: solid 2px tomato;
 }
 body {
     margin: 0;
@@ -8,12 +8,14 @@ body {
     line-height: 1.5;
 }
 #welcome {
-    border: solid 2px orange;
     padding: 70px 100px;
-}
-#welcome {
+    text-align: center;
 
 }
 #welcome img {
     width: 100%;
+}
+#welcome p {
+    width: 80%;
+    margin: 50px auto;
 }
