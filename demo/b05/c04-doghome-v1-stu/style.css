@@ -7,6 +7,36 @@ body {
     font-family: 'Nunito Sans', sans-serif;
     line-height: 1.5;
 }
+
+header {
+    height: 100vh;
+}
+
+
+
+.vd1 {
+    border-color: green;
+    padding: 50px;
+    /* height: 500px; */
+    position: relative;
+
+}
+.a {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: relative;
+    top: 20px;
+}
+
+.b {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: absolute;
+    right: 0;
+}
+
 #welcome {
     padding: 70px 100px;
     text-align: center;
@@ -29,9 +59,11 @@ body {
     flex-wrap: wrap;
 }  
 #what-we-do .item {
-    width: 25%;
+    width: 25%; 
     padding: 20px;
 }
 #what-we-do img {
     border-radius: 50%;
 }
+
+
